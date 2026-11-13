@@ -3,17 +3,19 @@
   "idf.espIdfPath": "/home/aeb/esp/esp-idf",
   "idf.pythonInstallPath": "/usr/bin/python3",
   "idf.openOcdConfigs": [
-    "board/esp32c3-builtin.cfg"
+    "board/esp32s3-builtin.cfg"
   ],
-  "idf.port": "detect",
+  "idf.port": "/dev/ttyACM8",
   "idf.toolsPath": "/home/aeb/.espressif",
   "idf.customExtraVars": {
-    "IDF_TARGET": "esp32c3"
+    "IDF_TARGET": "esp32s3"
   },
   "clangd.path": "/home/aeb/.espressif/tools/esp-clang/esp-18.1.2_20240912/esp-clang/bin/clangd",
   "clangd.arguments": [
     "--background-index",
     "--query-driver=**",
     "--compile-commands-dir=/home/aeb/dev/ESP32-AP-CONFIG-API/build"
-  ]
+  ],
+  "idf.currentSetup": "/home/ae-b/.espressif/v5.5.3/esp-idf",
+  "idf.flashType": "UART"
 }
